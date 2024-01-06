@@ -5,8 +5,8 @@ import Link from "next/link"
 
 async function LandingPageNavBar() {
   const user: User | null = await currentUser()
-  console.log(user)
-  return (
+  
+return (
     <nav className="flex w-screen justify-between p-6">
       <div>
         <Link href="/" className="text-purple-500 no-underline font-bold text-2xl">

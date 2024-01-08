@@ -28,6 +28,7 @@ const getLeadMagnets = async(userId:string)=>{
 
 async function LeadMagnetPage() {
      const {userId} = auth();
+     console.log(userId)
      if(!userId){
         return <div>No User Found</div>
      }
